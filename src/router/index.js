@@ -1,29 +1,63 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
+import About from "../views/About.vue";
+import Products from "../views/Products.vue";
+// import Map from "../views/Map.vue";
+// import Exctinct from "../views/Exctinct.vue";
+// import Cart from "../views/ShoppingCart.vue";
+import Login from "../views/Login.vue";
+import Logout from "../views/Logout.vue";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-  const routes = [
+const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
+    path: "/",
+    name: "Home",
+    component: Home,
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
-]
+    path: "/about",
+    name: "About",
+    component: About,
+  },
+  {
+    path: "/products",
+    name: "Products",
+    component: Products,
+  },
+  // {
+  //   path: "/map",
+  //   name: "Map",
+  //   component: Map,
+  // },
+  // {
+  //   path: "/extinct",
+  //   name: "Extinct",
+  //   component: Exctinct,
+  // },
+  // {
+  //   path: "/cart",
+  //   name: "Cart",
+  //   component: Cart,
+  // },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
+  },
+  {
+    path: "/logout",
+    name: "Logout",
+    component: Logout,
+  },
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
