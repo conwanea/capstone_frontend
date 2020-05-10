@@ -3,9 +3,9 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Products from "../views/Products.vue";
-// import Map from "../views/Map.vue";
-// import Exctinct from "../views/Exctinct.vue";
-// import Cart from "../views/ShoppingCart.vue";
+import Map from "../views/Map.vue";
+import Exctinct from "../views/Exctinct.vue";
+import Cart from "../views/ShoppingCart.vue";
 import Login from "../views/Login.vue";
 import Logout from "../views/Logout.vue";
 
@@ -27,21 +27,21 @@ const routes = [
     name: "Products",
     component: Products,
   },
-  // {
-  //   path: "/map",
-  //   name: "Map",
-  //   component: Map,
-  // },
-  // {
-  //   path: "/extinct",
-  //   name: "Extinct",
-  //   component: Exctinct,
-  // },
-  // {
-  //   path: "/cart",
-  //   name: "Cart",
-  //   component: Cart,
-  // },
+  {
+    path: "/map",
+    name: "Map",
+    component: Map,
+  },
+  {
+    path: "/extinct",
+    name: "Extinct",
+    component: Exctinct,
+  },
+  {
+    path: "/cart",
+    name: "Cart",
+    component: Cart,
+  },
   {
     path: "/login",
     name: "Login",
