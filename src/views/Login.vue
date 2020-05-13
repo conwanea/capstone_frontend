@@ -1,5 +1,10 @@
 <template>
-  <div class="login">
+  <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <div class="login">
     <div class="container">
       <form v-on:submit.prevent="submit()">
         <h1>Login</h1>
@@ -23,6 +28,11 @@
       </form>
     </div>
   </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 </template>
 
 <script>
