@@ -8,6 +8,7 @@ import Exctinct from "../views/Exctinct.vue";
 import Cart from "../views/ShoppingCart.vue";
 import Login from "../views/Login.vue";
 import Logout from "../views/Logout.vue";
+import Signup from "../views/Signup.vue";
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,11 @@ const routes = [
     path: "/logout",
     name: "Logout",
     component: Logout,
+  },
+  {
+    path: "/signup",
+    name: "Signup",
+    component: Signup,
   },
 ];
 
