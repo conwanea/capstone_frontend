@@ -1,7 +1,7 @@
 <template>
   <div class="products">
     <div v-for="plate in plates">
-      <section class="page-section clearfix mb-3">
+      <section class="page-section clearfix mb-6">
         <div class="container">
           <div class="intro">
             <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" v-bind:src="plate.image_url" alt="" />
@@ -11,13 +11,11 @@
                 <span class="section-heading-lower">{{ plate.print_name }}</span>
               </h2>
               <p class="mb-3">
-                <h2>{{ plate.print_name }}</h2>
-                <h2>{{ plate.scientific_name }}</h2>
-                <h3>Plate number: {{ plate.plate_number }}</h3>
-                <h3>{{ plate.medium }}</h3>
-                <h3>${{ plate.price }}</h3>
-                <h3>Number of Prints Left:{{ plate.number_of_prints }}</h3>
-                <p>Desrciption:<br>{{ plate.description }}</p>
+                <p>Plate number: {{ plate.plate_number }}</p>
+                <p>{{ plate.medium }}</p>
+                <p>${{ plate.price }}</p>
+                <p>Number of Prints Left:{{ plate.number_of_prints }}</p>
+                <p>Description:<br>{{ plate.description }}</p>
                 <hr>
               </p>
               <div class="intro-button mx-auto">
