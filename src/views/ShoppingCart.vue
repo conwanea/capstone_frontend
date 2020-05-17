@@ -12,8 +12,8 @@
               <p>This is where the shopping cart goes</p> -->
               <div v-for="carted_product in carted_products">
                 <p>Order Status: {{ carted_product.status }}</p>
-                <p>Order User: {{ carted_product.user_id }}</p>
-                <p>Product Id: {{ carted_product.product_id }}</p>
+                <p>Order User: {{ carted_product.user.first_name }} {{ carted_product.user.last_name }}</p>
+                <p>Product Id: {{ carted_product.plate.print_name }}</p>
                 <p>Quantity: {{ carted_product.quantity }}</p>
                 <p>Order Id: {{ carted_product.order_id }}</p>
                 <hr />

@@ -1,6 +1,6 @@
 <template>
        
-<section class="page-section cta">
+<!-- <section class="page-section cta"> -->
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section> -->
     
 </template>
 
@@ -98,3 +98,4 @@ export default {
     },
   },
 };
+</script>

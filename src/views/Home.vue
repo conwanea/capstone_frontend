@@ -3,11 +3,11 @@
     <!-- <h1>All Products</h1> -->
     <!-- <div v-for="plate in plates">
       <h2>{{ plate.print_name }}</h2>
-    </div> -->
+    </div>-->
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="" />
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt />
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Museum Quality Prints</span>
@@ -18,7 +18,7 @@
               when it comes to your print.
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Buy one today!</a>
+              <a class="btn btn-primary btn-xl" href="/plates">Buy one today!</a>
             </div>
           </div>
         </div>
@@ -38,8 +38,7 @@
                 When you order from us you're not only a quality print at an amazing price, but your also supporting a
                 small business. We appreciate your business and hope our standards meet yours!
                 <br />
-                <br />
-                Thank You!
+                <br />Thank You!
               </p>
             </div>
           </div>

@@ -12,14 +12,12 @@
               </h2>
               <p class="mb-3">
                 <p>Plate number: {{ plate.plate_number }}</p>
-                <p>{{ plate.medium }}</p>
                 <p>${{ plate.price }}</p>
                 <p>Number of Prints Left:{{ plate.number_of_prints }}</p>
-                <p>Description:<br>{{ plate.description }}</p>
                 <hr>
               </p>
               <div class="intro-button mx-auto">
-                <a class="btn btn-primary btn-xl" href="#">Buy one today!</a>
+                <a class="btn btn-primary btn-xl" v-bind:href="`/plates/${plate.id}`"> More Info!</a> 
               </div>
             </div>
           </div>

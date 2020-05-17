@@ -8,7 +8,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <a
+          class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
+          href="/"
+        >The Conway Collection</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,13 +35,16 @@
               <a class="nav-link text-uppercase text-expanded" href="/about">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="/products">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="/plates">Products</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="/map">Sale Map</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="/extinct">Extinct and Endangered</a>
+              <a
+                class="nav-link text-uppercase text-expanded"
+                href="/extinct"
+              >Extinct and Endangered</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="/cart">Shopping Cart</a>
